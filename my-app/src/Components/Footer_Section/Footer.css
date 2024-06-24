@@ -1,0 +1,46 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 65px;
+    background-color: #0f3460;
+    color: #fff;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  .column h3{
+    text-align: left;
+  }
+  .logo {
+    font-size: 22px;
+    text-align: left;
+  }
+  .logo svg{
+    margin-right: 10px;
+  }
+  
+  .paragraph {
+    line-height: 1.5;
+    text-align: left;
+    font-size: 12px;
+    max-width: 200px;
+    color: #5c7494;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .column ul li{
+    font-weight: 100;
+    color: #6f839a;
+    font-size: 12px;
+    text-align: left;
+    line-height: 25px;
+  }
+  .address_footer{
+    max-width: 159px;
+  }
+  

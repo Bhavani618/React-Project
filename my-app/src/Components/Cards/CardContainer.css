@@ -1,0 +1,13 @@
+/* CardContainer.css */
+.card-container {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    align-items: center;
+    width: 100%;
+    /* max-width: 400px; */
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    margin: 55px 0px;
+  }
+  

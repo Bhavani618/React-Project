@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+nav img{
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+   padding: 20px;
+   list-style: none;
+}
+.logo{
+    padding: 16px;
+}

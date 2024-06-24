@@ -1,0 +1,11 @@
+.big-discount-section-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 40px;
+    justify-content: center;
+    background-color: #f6f9fc;
+  }
+  .discount_heading{
+    margin-bottom: 35px;
+  }

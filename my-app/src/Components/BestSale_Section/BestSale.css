@@ -1,0 +1,96 @@
+.bestsale-container {
+  text-align: center;
+  margin: 20px;
+  background: #f6f9fc;
+  padding: 60px 40px; /* Add more gap on left and right sides of the container */
+}
+
+.bestsale-title {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.bestsale-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* Reduce the gap between the cards */
+  margin: 0 40px; /* Add space on the left and right side of the card grid */
+}
+
+.bestsale-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px; /* Smaller padding for smaller card size */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  max-width: 280px; /* Limit the card width to make it smaller */
+  height: 300px; /* Increase the height of the cards */
+}
+
+.bestsale-product-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1; 
+}
+
+.bestsale-product-image {
+  max-width: 65%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bestsale-product-details {
+  width: 100%;
+  text-align: left;
+}
+
+.bestsale-product-name {
+  font-size: 0.9em; 
+  font-weight: 500;
+  margin-bottom: 6px; 
+}
+
+.bestsale-product-rating {
+  color: gold; 
+  font-size: 1.2em; 
+  margin-bottom: 6px; 
+}
+
+.bestsale-product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.bestsale-add-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: green;
+  border: 1px solid #c5bdbd;
+  border-radius: 50%;
+}
+
+.bestsale-add-button:hover {
+  background-color: #218838;
+}
+
+.bestsale-card:nth-last-of-type(2),
+.bestsale-card:last-of-type {
+  grid-column: span 1; 
+  align-self: center; 
+}
+
+.bestsale-card:nth-last-of-type(2) {
+  grid-row-start: 3;
+}
+
+.bestsale-card:last-of-type {
+  grid-row-start: 3;
+}
