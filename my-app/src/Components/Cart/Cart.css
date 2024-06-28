@@ -1,0 +1,116 @@
+/* src/components/Cart.css */
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    background: #f6f9fc;
+    padding: 48px;
+    margin-top: 17px;
+  }
+  
+  .product-card-container {
+    width: 60%;
+    padding-right: 20px;
+  }
+  
+  .summary-card-container {
+    width: 35%;
+    text-align: justify;
+  }
+  
+  .product-card {
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .product-image img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .product-details {
+    margin-left: 20px;
+    text-align: justify;
+  }
+  
+  .product-details h2 {
+    font-size: 18px;
+  }
+  
+  .product-details p {
+    margin-top: 3em;
+    font-size: 13px;  
+    color: #0f3460;
+  }
+  
+  .product-details span {
+    color: grey;
+    margin-right: 13px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: none;
+    background: none;
+    font-size: 20px;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    justify-content: end;
+    margin-top: 5em;
+    flex-grow: 1;
+  }
+  
+  .decrement-button, .increment-button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .increment-button {
+    border: 1px solid #ede5e5;
+    background: #fff;
+    color: #0f3460;
+    font-size: 23px;
+  }
+  
+  .decrement-button {
+    align-items: center;
+    background: #f6f9fc;
+    border: none;
+    font-size: 26px;
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .summary-card {
+    padding: 20px;
+    background-color: #fff;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This ensures space between h2 and the p elements */
+  }
+  
+  .summary-card h2 {
+    margin-bottom: 4px;
+    font-size: 17px;
+    color: #0f3460;
+  }
+  
+  .summary-card p {
+    margin: 0;
+    color: #0f3460;
+   
+  }
+.summary-card .price_list{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #080707;
+    font-weight: 300;
+}  

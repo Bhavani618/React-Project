@@ -8,7 +8,7 @@ const SliderComponent = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     slidesToShow: 1,

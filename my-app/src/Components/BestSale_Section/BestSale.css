@@ -2,7 +2,7 @@
   text-align: center;
   margin: 20px;
   background: #f6f9fc;
-  padding: 60px 40px; /* Add more gap on left and right sides of the container */
+  padding: 60px 40px;
 }
 
 .bestsale-title {
@@ -13,20 +13,21 @@
 .bestsale-card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px; /* Reduce the gap between the cards */
-  margin: 0 40px; /* Add space on the left and right side of the card grid */
+  gap: 10px; 
+  margin: 0 40px;
 }
 
 .bestsale-card {
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 20px; /* Smaller padding for smaller card size */
+  padding: 20px; 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   background-color: #fff;
-  max-width: 280px; /* Limit the card width to make it smaller */
-  height: 300px; /* Increase the height of the cards */
+  max-width: 280px; 
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bestsale-product-image-container {
