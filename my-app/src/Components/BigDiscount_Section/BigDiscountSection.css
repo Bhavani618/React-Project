@@ -8,7 +8,7 @@
     font-size: 0.9em;
     box-sizing: border-box;
     width: 100%;
-    max-width: 280px; /* Max width for each card */
+    max-width: 280px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;

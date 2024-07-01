@@ -1,4 +1,3 @@
-// App.js
 import './App.css';
 import BestSale from './Components/BestSale_Section/BestSale';
 import BigDiscountSectionList from './Components/BigDiscount_Section/BigDiscountSectionList';
@@ -9,7 +8,7 @@ import Navbar from './Components/Navbar/Navbar';
 import ArrivalList from './Components/NewArrival_Section/ArrivalList';
 import Cart from './Components/Cart/Cart';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import StorePage from './Components/Storepage_Section/StorePage';
 function App() {
   return (
     <Router>
@@ -26,6 +25,7 @@ function App() {
             </>
           } />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/shop" element={<StorePage />} />
         </Routes>
         <Footer />
       </div>

@@ -1,4 +1,3 @@
-// src/components/Cart.js
 import React from 'react';
 import './Cart.css';
 
